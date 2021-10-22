@@ -28,8 +28,8 @@ function App() {
     .then(tokenResponse => {
       setToken(tokenResponse.data.access_token)
 
-      let id = '79el7mcHYhXYW3Zek21i0L'
-      axios('https://api.spotify.com/v1/artists/' + id + '/albums', {
+      let Aid = '79el7mcHYhXYW3Zek21i0L'
+      axios('https://api.spotify.com/v1/artists/' + Aid + '/albums', {
           headers: {
               'Authorization': 'Bearer ' + token,
               'Content-Type' : 'application/json'
