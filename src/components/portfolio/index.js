@@ -1,15 +1,24 @@
+import { useEffect, useState } from "react";
 
-function Portfolio () {
-    let token = '73d269dc5bb344b588428ad19485c1b1'
+const Portfolio = props => {
     
-   let info = fetch('https://api.spotify.com/v1/artist/79el7mcHYhXYW3Zek21i0L/albums' ,{
-       Authorization: "Bearer " + token
-   })
-    console.log(info)
+    const {
+        albums
+    } = props;
+
+    console.log(albums)
+
     return(
-        <>
-        {/* {info.map(item)} */}
-        </>
+        <div className="albcon">
+            {
+            albums && albums.map(album => (
+                <div key={album.id}>
+                    <img src={album.images[0].url} alt="album cover" className="album"/>
+                    <h2>{album.name}</h2>
+                </div>
+            ))
+            }
+        </div>
     )
 }
 
