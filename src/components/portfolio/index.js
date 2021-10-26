@@ -5,7 +5,6 @@ const Portfolio = props => {
         albums
     } = props;
 
-    console.log(albums)
 
     return(
         <div className="portcon row" >
