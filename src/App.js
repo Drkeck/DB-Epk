@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { Credentials } from './cred'
 import './App.css';
 import Portfolio from './components/portfolio';
+import Header from './components/nav'
 
 function App() {
 
@@ -40,7 +41,7 @@ function App() {
 
   return (
     <div className="App">
-      <p>Hi John</p>
+      <Header />
       <Portfolio albums={albums}/>
     </div>
   );
