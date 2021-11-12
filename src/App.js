@@ -25,7 +25,7 @@ function App() {
     })
     .then(tokenResponse => {
       const token = tokenResponse.data.access_token
-      const Aid = '3jsyANBBy6gOZUSQhiGclx'
+      const Aid = '56ry90LlqAoQ2mAyWY7cO4'
       axios('https://api.spotify.com/v1/artists/'+ Aid +'/albums', {
           headers: {
               'Authorization': 'Bearer ' + token,
