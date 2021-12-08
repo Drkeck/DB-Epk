@@ -7,10 +7,11 @@ const Portfolio = props => {
     const {
         albums
     } = props;
-    console.log(albums)
 
-    return(
-        <div className="portcon row" >
+    return(            
+    <div>
+        <h2 className="portfolio-title">Recent Releases:</h2>
+        <div className="portcon row">
             {
             albums && albums.map(album => (
                 <a key={album.id} className="alsh albcon" href={album.external_urls.spotify} target="_blank" rel="noreferrer">
@@ -23,6 +24,7 @@ const Portfolio = props => {
             ))
             }
         </div>
+    </div>
     )
 }
 

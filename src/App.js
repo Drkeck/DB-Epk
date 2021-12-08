@@ -4,6 +4,8 @@ import { Credentials } from './cred'
 import './App.css';
 import Portfolio from './components/portfolio';
 import Header from './components/nav'
+import Bio from './components/bio'
+import Resume from './components/resume';
 
 function App() {
 
@@ -43,6 +45,10 @@ function App() {
     <div className="App">
       <Header />
       <Portfolio albums={albums}/>
+      <Bio />
+      <Resume />
+      
+      
     </div>
   );
 }

@@ -1,7 +1,18 @@
-canvas {
-  background: linear-gradient(purple, blue);
-  z-index: -1 !important;
+:root{
+  --red: #ff0905;
+  --blue: #0434ff;
+  --lightblue: #10ffff;
+  --lavender: #FFaFFF;
+  --lavender2: lavender;
+  --amethyst: #ff76ff;
+  --purple: #ff05ff ;
+  --violet: #c615ff;
 }
+
+canvas {
+
+  z-index: -1 !important;
+} 
 
 body {
   margin: 0;
@@ -11,9 +22,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   z-index: 1;
+  background: linear-gradient(120deg, var(--violet) 30%, var(--blue));
+  height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

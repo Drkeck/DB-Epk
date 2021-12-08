@@ -1,6 +1,6 @@
 .portcon {
     justify-content: center;
-    margin: 0 0 0 0;
+    margin: 0px 0 0 0;
     height: auto;
 }
 
@@ -34,17 +34,17 @@
     height: 100%;
     padding: 40% 15px;
     color: white;
-    background: radial-gradient(circle, rgba(29, 185, 84, .71) 0%, rgba(29, 185, 84, 0.2) 100%);
+    background: radial-gradient(circle, rgba(16, 255, 255, 0.71) 0%, rgba(16, 255, 255, 0.2) 100%);
     transition: 300ms;
     opacity: 0;
 }
 
 .albumTitle {
-    text-shadow: 2px 2px 2px #1db954;
+    text-shadow: 2px 2px 2px var(--lightblue);
 }
 
 .releaseDate {
-    text-shadow: -2px -2px 2px #1db954;
+    text-shadow: -2px -2px 2px var(--lightblue);
 }
 
 .alsh {
@@ -67,6 +67,12 @@
 
 .albcon:hover {
     transform: scale(1.15);
-    box-shadow: 0px 0px 15px 5px #1db954;
+    box-shadow: 0px 0px 15px 5px var(--lightblue);
     opacity: 1;
+}
+
+.portfolio-title {
+    color: white;
+    text-shadow: 0px 0px 20px var(--lightblue);
+    margin-bottom: 25px;
 }
