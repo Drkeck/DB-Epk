@@ -3,7 +3,7 @@ import './index.css'
 function Resume () {
 
     return(
-        <div>
+        <div style={{height: '160px'}}>
             <div className="row res-con">
                 <button className="col-8 view"><a href="https://docs.google.com/document/d/11Ho_Fqby3McO7FUkNGwa0JvcF8PdoBnxaJMmcbWPSyY/edit?usp=sharing" target="_blank" rel="noreferrer">View Resume</a></button>
                 <h1 className="col-2 text-white or">Or</h1>
