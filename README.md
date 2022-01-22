@@ -1,5 +1,5 @@
 ## DECEPTIVEBROWNIE
-This is a EPK [Electronic press kit](https://deceptivebrownie.herokuapp.com/) for DECEPTIVEBROWNIE, both an excelent talent but also an excelent friend.
+This is a EPK or [Electronic press kit](https://deceptivebrownie.herokuapp.com/) for DECEPTIVEBROWNIE, both an excelent talent but also an excelent friend.
 this is to showcase his work and his resume for future ventures or inqueries.
 
 currently the url is a free one but this just serves its purpous of existing for now, url will be changing in the future.
